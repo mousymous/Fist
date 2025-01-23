@@ -9,7 +9,7 @@
 
 std::shared_ptr<spdlog::logger> initialize_logger(){
     try {
-        auto file_log = spdlog::basic_logger_mt("log-file", "../logs/logs.txt");
+        auto file_log = spdlog::basic_logger_mt("log-file", "../../logs/logs.txt");
         file_log -> info("Logger: Initialized Success");
         return file_log;
     } catch (spdlog::spdlog_ex &error) {

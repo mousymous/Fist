@@ -41,9 +41,9 @@ public:
 
 private:
     struct Window_attribute {
-        const std::uint16_t WINDOW_WIDTH {900};
-        const std::uint16_t WINDOW_HEIGHT {600};
-        const std::string WINDOW_TITLE {"FIST"};
+        constexpr static std::uint16_t WINDOW_WIDTH {900};
+        constexpr static std::uint16_t WINDOW_HEIGHT {600};
+        std::string WINDOW_TITLE {"FIST"};
     }; 
 
     Window_attribute window_attribute;

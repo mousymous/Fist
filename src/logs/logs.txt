@@ -1,3 +1,0 @@
-[2025-01-23 17:07:59.054] [log-file] [info] Logger: Initialized Success
-[2025-01-23 17:07:59.054] [log-file] [info] Main Function Initialized
-[2025-01-23 17:07:59.304] [log-file] [info] Window: Initializing

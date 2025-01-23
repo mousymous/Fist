@@ -3,11 +3,11 @@
 #define WINDOWCLASS_HPP
 
 // A Class related to window activity
-class Window_class {
+class Window_Class {
 public:
 
     // Constructor that initialize both the window_attribute structure and the window variable
-    Window_class() : 
+    Window_Class() : 
         window_attribute(),
         window(sf::VideoMode(window_attribute.WINDOW_WIDTH, window_attribute.WINDOW_HEIGHT), window_attribute.WINDOW_TITLE)
     {
@@ -15,7 +15,7 @@ public:
     };
 
     // window loop events
-    void window_initialize() {
+    void window_initialize(Background_Class &background_class) {
         
         window.setFramerateLimit(60);
         sf::Event events;
@@ -35,18 +35,23 @@ public:
 
             // Render Display Here
             window.clear();
+            window.draw(background_class.background_sprite);
             window.display();
         }
-    }    
+    }
+
+    const sf::Vector2u get_window_size() {
+        return window.getSize();
+    }
 
 private:
-    struct Window_attribute {
+    struct Window_Attribute {
         constexpr static std::uint16_t WINDOW_WIDTH {900};
         constexpr static std::uint16_t WINDOW_HEIGHT {600};
         std::string WINDOW_TITLE {"FIST"};
     }; 
 
-    Window_attribute window_attribute;
+    Window_Attribute window_attribute;
     sf::RenderWindow window;
 
 };

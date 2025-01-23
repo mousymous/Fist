@@ -9,6 +9,7 @@
 
 // Project Headers
 #include "logger.hpp"
+#include "background.hpp"
 #include "windowclass.hpp"
 
 #endif

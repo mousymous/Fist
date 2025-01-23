@@ -1,3 +1,23 @@
 [2025-01-24 01:55:58.868] [log-file] [info] Logger: Initialized Success
 [2025-01-24 01:55:58.868] [log-file] [info] Main Function Initialized
 [2025-01-24 01:55:59.034] [log-file] [info] Window: Initializing
+[2025-01-24 02:41:39.845] [log-file] [info] Logger: Initialized Success
+[2025-01-24 02:41:39.845] [log-file] [info] Main Function Initialized
+[2025-01-24 02:41:40.023] [log-file] [info] Window: Initializing
+[2025-01-24 02:43:57.300] [log-file] [info] Logger: Initialized Success
+[2025-01-24 02:43:57.300] [log-file] [info] Main Function Initialized
+[2025-01-24 02:43:57.466] [log-file] [info] Window: Initializing
+[2025-01-24 02:43:57.466] [log-file] [info] Background: Initilizing
+[2025-01-24 02:44:48.786] [log-file] [info] Logger: Initialized Success
+[2025-01-24 02:44:48.786] [log-file] [info] Main Function Initialized
+[2025-01-24 02:44:48.964] [log-file] [info] Window: Initializing
+[2025-01-24 02:44:48.964] [log-file] [info] Background: Initilizing
+[2025-01-24 02:47:21.724] [log-file] [info] Logger: Initialized Success
+[2025-01-24 02:47:21.724] [log-file] [info] Main Function Initialized
+[2025-01-24 02:47:21.881] [log-file] [info] Window: Initializing
+[2025-01-24 02:47:21.881] [log-file] [info] Background: Initilizing
+[2025-01-24 02:50:31.332] [log-file] [info] Logger: Initialized Success
+[2025-01-24 02:50:31.332] [log-file] [info] Main Function Initialized
+[2025-01-24 02:50:31.513] [log-file] [info] Window: Initializing
+[2025-01-24 02:50:31.513] [log-file] [info] Background: Initilizing
+[2025-01-24 02:50:31.520] [log-file] [info] Background: initialize success
